@@ -10,9 +10,18 @@ div {
     background-color: #fff;
 }
 
+.content {
+    padding: 0.938rem;
+    /* min-width: 37.5rem; */
+
 .top-navigation > .content {
-    width: 970px;
-    height: 70px;
+    width: 970px; 
+    height: 4.375rem; 
     margin: 0 auto;
+}
+
+.logo {
+    height: 4.375rem;
+    box-sizing: border-box;
 }
 
