@@ -5,10 +5,10 @@ body {
     background-color: LightGray;
 }
 div {
-    border: 0.1rem solid Chocolate;
+/*    border: 0.1rem solid Chocolate; */
 }
 /*      Navigation Section */
-.content {
+.top-navigation .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,18 +39,22 @@ li:hover {
     color: #333333;
 }
 .introduction {
+    display: flex;
     background-image: url('../images/first-background.jpg');
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
     overflow: auto;
+    align-items: center;
+}
+.introduction .content {
+    text-align: center;
+    width: 100%;
 }
 .introduction h1,
 .introduction h3 {
     color: white;
-    display: flex;
-    flex-direction: column;
     font-weight: 300;
 }
 .introduction h1 {
